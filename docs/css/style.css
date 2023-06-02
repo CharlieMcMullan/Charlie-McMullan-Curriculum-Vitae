@@ -16,8 +16,8 @@ background-color:#cccccc;
 
 nav{
 	background-color: #00ace6;
-	padding-top:10%;
-	padding-bottom:10%;
+	padding-top:3%;
+	padding-bottom:3%;
 
 }
 nav ul{
@@ -30,7 +30,7 @@ nav ul li {
 nav ul li a{
 	
 	text-decoration: none;
-	padding:20px;
+	padding:5%;
 		color:white;
 	font-size:1.5em;
 	font-weight:bold;
@@ -45,16 +45,16 @@ aside{
 	width:40%;
 	float:right;
 	background-color:#b3f0ff;
-	border: solid 3px;
+	border: solid 2%;
 	border-color:#blue;
-	border-radius:3px;
+	border-radius:2%;
 	color:white;
 	height:75%;
 	
 }
 
 aside, h1{
-	padding-left:30px;
+	padding-left:3%;
 }
 
 section{
@@ -64,11 +64,11 @@ section{
 }
 
 section h1, #about{
-	padding-left:30px;
+	padding-left:8%;
 }
 
 #experience{
-	padding-left:30px;
+	padding-left:8%;
 }
 
 #Hero{
