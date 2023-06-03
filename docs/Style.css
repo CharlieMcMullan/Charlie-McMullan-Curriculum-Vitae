@@ -1,0 +1,26 @@
+
+
+main {
+
+  width: 80%; /* The width is 60%, by default */
+  margin-left:5%;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+main {
+    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-left:5%;
+  }
+}
+
+.custom-navbar{
+    background-color: black;
+  }
+  
+  .navbar-nav > li > a.nav-link {
+    color: white !important;
+  }
+main{
+    background-color:white;
+}
