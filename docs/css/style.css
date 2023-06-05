@@ -99,21 +99,9 @@ footer{
 	font-size: 1.2em;
 	height: 5em;
 	display: flex;
-	width: 80%;
+	width: 100%;
 }
 
-#footerDiv{
-	display:flex 30%;
-	
-}
-
-
-
-
-#footerDiv, img{
-	align-items:center;
-	padding:0.5em;
-}
 
 table {
 	
