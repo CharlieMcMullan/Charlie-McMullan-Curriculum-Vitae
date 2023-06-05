@@ -32,6 +32,7 @@ footer{
     background-color: black;
     padding-top:1%;
     padding-bottom:1%;
+width:95%;
   }
   footer p {
     color: white;
@@ -64,13 +65,13 @@ p{
 }
 
 table{
-  width: 70%;
+  width: 90%;
   font-size: 1em;
 }
 
 .Ftable{
   margin-left:5%;
-  width: 80%;
+  width: 100%;
   font-size: 1em;
   text-decoration: none; /* Remove underline */
   color: white; /* Change color to red */
