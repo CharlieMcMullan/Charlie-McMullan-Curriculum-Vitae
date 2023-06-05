@@ -1,11 +1,7 @@
-main {
-  height: auto;
-}
 
 body{ /* Sets text rules such as font type and alignment */
   font-family: arial;
   text-align: left;
-  height:auto;
 }
 
 main {/* Sets main page spacing from edges, creating the border rules*/
