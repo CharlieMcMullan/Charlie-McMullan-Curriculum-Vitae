@@ -1,79 +1,75 @@
 
-body{
+body{ /* Sets text rules such as font type and alignment */
   font-family: arial;
+  text-align: left;
 }
-main {
 
-  width: 80%; /* The width is 60%, by default */
+main {/* Sets main page spacing from edges, creating the border rules*/
+  width: 90%; 
   margin-left:5%;
   padding-bottom:2%;
+  background-color:white;
 }
 
-.FIcons{
-  width:30%;
-}
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-main {
-    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
-    margin-left:5%;
-  }
-
-.FIcons{
-  width:30%;
-}
-}
-
-.custom-navbar{
+.custom-navbar{ /* Sets bootstrap nav to black*/
     background-color: black;
   }
-  
-footer{
+
+  .navbar-nav > li > a.nav-link { /* Sets bootstrap nav text to white*/
+    color: white !important;
+  }
+
+  /* Footer Editor*/
+footer{ /* Footer colour & spacing*/
     background-color: black;
     padding-top:1%;
     padding-bottom:1%;
   }
-  footer p {
+  footer p {  /* Footer paragraph rules*/
     color: white;
     margin-left:5%;
 
   }
-  .navbar-nav > li > a.nav-link {
-    color: white !important;
-  }
-main{
-    background-color:white;
-}
 
 /*font editing */
-h1{
-  font-size: 1.5em;
+h1{/*Header sizes */
+  font-size: 1.5em; 
 }
 
-h2{
+h2{/*Header sizes */
   font-size: 1.2em;
 
 }
 
-h3{
+h3{/*Header sizes */
   font-size: 1.1em;
 }
 
-p{
+p{/*Paragraph sizes */
   font-size: 1em;
 }
 
-table{
-  width: 70%;
-  font-size: 1em;
+/* Table Editing */
+
+table td,
+table th { /*Rules for table headers & table data*/
+  white-space: nowrap; /*Keeps text on the one line*/
+}
+
+.about{
+  width:60%;
 }
 
 .Ftable{
   margin-left:5%;
-  width: 80%;
-  font-size: 1em;
-  text-decoration: none; /* Remove underline */
+  margin-right:5%;
+  text-decoration: none; 
   color: white; /* Change color to red */
+  border: 0px;
+  width: 80%;
+  max-width: 80%;
+  font-size: 1.1em;
+  table-layout: fixed;
 
 }
 
@@ -81,8 +77,91 @@ table{
   text-decoration: none; /* Remove underline */
 }
 
-#Flink{
+
+.results{
+  border: 0px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1em;
+  table-layout: fixed;
+  
+}
+
+.Git{
+   /* Remove underline */
+  height: 1.3em;
+  width:auto;
+}
+
+.Link{
+  height: 1.3em;
+  width:auto;
+}
+
+#Tel{
+  padding-bottom: 5%;
   text-decoration: none; /* Remove underline */
   color: white; /* Change color to red */
   font-weight: normal;
 }
+
+
+#Email{
+  padding-bottom: 5%;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change color to red */
+  font-weight: normal;
+}
+
+
+
+
+
+
+/*Devices with 800px screens */
+@media screen and (max-width: 800px) {
+  main {
+      margin-left:5%;
+    }
+  
+    .results{
+      border: 0px;
+      width: 100%;
+      max-width: 100%;
+      font-size: 0.8em;
+      table-layout: fixed;
+      
+    }
+    
+    
+    .right-inline{
+      padding-left: 28%;
+    
+    }
+
+    .Ftable{
+      margin-left:5%;
+      margin-right:5%;
+      text-decoration: none; /* Remove underline */
+      color: white; /* Change color to red */
+      border: 0px;
+      width: 80%;
+      max-width: 80%;
+      font-size: 0.8em;
+      table-layout: fixed;
+    
+    }
+
+    .Git{
+      /* Remove underline */
+     height: 1em;
+     width:auto;
+   }
+   
+   .Link{
+     height: 1em;
+     width:auto;
+   }
+
+    
+  }
