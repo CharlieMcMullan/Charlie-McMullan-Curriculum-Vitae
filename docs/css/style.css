@@ -128,7 +128,7 @@ table th { /*Rules for table headers & table data*/
       border: 0px;
       width: 100%;
       max-width: 100%;
-      font-size: 0.8em;
+      font-size: 0.7em;
       table-layout: fixed;
       
     }
@@ -147,7 +147,7 @@ table th { /*Rules for table headers & table data*/
       border: 0px;
       width: 80%;
       max-width: 80%;
-      font-size: 0.8em;
+      font-size: 0.7em;
       table-layout: fixed;
     
     }
