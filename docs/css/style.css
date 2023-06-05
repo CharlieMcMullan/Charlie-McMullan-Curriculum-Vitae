@@ -120,38 +120,43 @@ table th { /*Rules for table headers & table data*/
 
 /*Devices with 800px screens */
 @media screen and (max-width: 800px) {
-  main {
+  main { /* indents text in main*/
       margin-left:5%;
     }
+
+    .about{
+      width:100%;
+    }
   
-    .results{
+    .results{ /*edits tables with results*/
       border: 0px;
       width: 100%;
       max-width: 100%;
-      font-size: 0.7em;
-      table-layout: fixed;
+      font-size: 0.8em;
+      table-layout: fixed; /*forces a stanardised layout for all in .results*/
       
     }
     
     
     .right-inline{
-      padding-left: 28%;
+      padding-left: 28%;/*padding between result and module*/
     
     }
 
-    .Ftable{
+    .Ftable{/*Edits Footer Table*/
       margin-left:5%;
       margin-right:5%;
-      text-decoration: none; /* Remove underline */
-      color: white; /* Change color to red */
-      border: 0px;
+      text-decoration: none; /* Removes underline */
+      color: white; /* Change color to white from standard hyperlink blue */
+      border: 0px;   /* removes table boarder */
       width: 80%;
       max-width: 80%;
       font-size: 0.7em;
-      table-layout: fixed;
+      table-layout: fixed; 
     
     }
 
+    /*Footer imgs*/
     .Git{
       /* Remove underline */
      height: 1em;
@@ -163,9 +168,7 @@ table th { /*Rules for table headers & table data*/
      width:auto;
    }
 
-   .about{
-    width:100%;
-  }
+
   
     
   }
