@@ -1,115 +1,88 @@
-body {
-	
-	width:80%;
-		margin-left:auto;
-		margin-right:auto;
-	font-family:arial;
-	
-	}
- html {     
-background-color:#cccccc;	
-} 
 
-.container{
-	 background-color:white;
- }
-
-nav{
-	background-color: #00ace6;
-	padding-top:3%;
-	padding-bottom:3%;
-
+body{
+  font-family: arial;
 }
-nav ul{
-	list-style-type:none;
-}
-nav ul li {
-	display:inline;
+main {
+
+  width: 80%; /* The width is 60%, by default */
+  margin-left:5%;
+  padding-bottom:2%;
 }
 
-nav ul li a{
-	
-	text-decoration: none;
-	padding:5%;
-		color:white;
-	font-size:1.5em;
-	font-weight:bold;
+.FIcons{
+  width:30%;
+}
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+main {
+    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin-left:5%;
+  }
+
+.FIcons{
+  width:30%;
+}
 }
 
-main{
-	padding-left:5%;
-}
-
-aside{
-	
-	width:40%;
-	float:right;
-	background-color:#b3f0ff;
-	border: solid 2%;
-	border-color:#blue;
-	border-radius:2%;
-	color:white;
-	height:75%;
-	
-}
-
-aside, h1{
-	padding-left:3%;
-}
-
-section{
-	float:left;
-	width:50%;
-	
-}
-
-section h1, #about{
-	padding-left:8%;
-}
-
-#experience{
-	padding-left:8%;
-}
-
-#Hero{
-	background-image: url('../images/banner.jpg');
-	height:10%;
-	background-repeat:no;
-	background-size:cover;
-	background-position:center;
-	position: relative;
-		
-		
-}
-
-#HeroText{
-	font-weight:bold;
-	font-size:1.2em;
-	color:white;
-	text-align:right;
-	top:10%;
-	left:20%;
-	position: absolute;
-	transform:translate(-50%-50%)
-}
-
+.custom-navbar{
+    background-color: black;
+  }
+  
 footer{
-	background-color:black;
-	color:white;
-	font-size: 1.2em;
-	height: 5em;
-	display: flex;
-	width: 100%;
+    background-color: black;
+    padding-top:1%;
+    padding-bottom:1%;
+  }
+  footer p {
+    color: white;
+    margin-left:5%;
+
+  }
+  .navbar-nav > li > a.nav-link {
+    color: white !important;
+  }
+main{
+    background-color:white;
 }
 
-
-table {
-	
-	background-color:#b3f0ff;
+/*font editing */
+h1{
+  font-size: 1.5em;
 }
 
-table tr th{
-	border: solid 2px white;
-	background-color:white;
-	text-style-type:uppercase;
+h2{
+  font-size: 1.2em;
+
+}
+
+h3{
+  font-size: 1.1em;
+}
+
+p{
+  font-size: 1em;
+}
+
+table{
+  width: 70%;
+  font-size: 1em;
+}
+
+.Ftable{
+  margin-left:5%;
+  width: 80%;
+  font-size: 1em;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change color to red */
+
+}
+
+.Ftable th{
+  text-decoration: none; /* Remove underline */
+}
+
+#Flink{
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change color to red */
+  font-weight: normal;
 }
