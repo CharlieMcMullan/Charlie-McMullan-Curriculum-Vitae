@@ -163,5 +163,9 @@ table th { /*Rules for table headers & table data*/
      width:auto;
    }
 
+   .about{
+    width:100%;
+  }
+  
     
   }
