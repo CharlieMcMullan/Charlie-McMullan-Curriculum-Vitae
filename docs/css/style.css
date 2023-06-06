@@ -116,6 +116,7 @@ table th { /*Rules for table headers & table data*/
 
 .image-style{
   width:80%;
+border: 3px;
 }
 .image-container{
   display:flex;
@@ -134,7 +135,7 @@ table th { /*Rules for table headers & table data*/
   
     .results{ /*edits tables with results*/
       border: 0px;
-      width: 90%;
+      width: 100%;
       max-width: 100%;
       font-size: 0.8em;
       table-layout: fixed; /*forces a stanardised layout for all in .results*/
