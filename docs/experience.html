@@ -1,86 +1,232 @@
-<html>
 
-<!DOCTYPE html>
-<html>
-<!--This connects bootstrap to the webpage-->
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<!--This customises the boostrap design adding spacing for main from left side&& setting navbar hight + colour-->
-			<link rel="stylesheet" href="css/style.css">
-      <link rel="icon" type="image/x-icon" href="images/Logo.ico">
-	<style>
-.navbar-nav > li > a {
-  color: white;
+
+
+
+body{ /* Sets text rules such as font type and alignment */
+  font-family: arial;
+  text-align: left;
+height:auto; 
+}
+
+main {/* Sets main page spacing from edges, creating the border rules*/
+  width: 90%; 
+  margin-left:5%;
+  padding-bottom:2%;
+  background-color:white;
+}
+
+.custom-navbar{ /* Sets bootstrap nav to black*/
+    background-color: black;
+  }
+
+  .navbar-nav > li > a.nav-link { /* Sets bootstrap nav text to white*/
+    color: white !important;
+  }
+
+.aboutul{
+list-style-type: none;
+    padding: 0 !important;
 }
 
 
-</style>
-<head>
-    <title>Charlie McMullan</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-	 <!--This the navigation bar and it's options-->
-     
-     <ul class="nav nav-tabs nav-fill custom-navbar" >
-        <li class="nav-item" >
-          <a class="nav-link active " href="index.html"style="color: gray;" ><strong>Home</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="certs.html"style="color: gray;"><strong>Certs</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="experience.html"style="color: gray;"><strong>Experience</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#"style="color: gray;"><strong>Projects</strong></a>
-        </li>
-      </ul>
+.aboutli{
+display: inline;
+    margin-right: 10px !important; 
+}
+
+  /* Footer Editor*/
+footer{ /* Footer colour & spacing*/
+    background-color: black;
+    padding-top:2.5%;
+    position: absolute;
+  }
+footer p {  /* Footer paragraph rules*/
+    color: white;
+    margin-left:5%;
+
+  }
+
+    /* Footer Editor*/
+    .SPage{ /* Footer colour & spacing*/
+      background-color: black;
+      padding-top:2.5%;
+      position: absolute;
+      bottom: 0;
+    }
+
+/*font editing */
+h1{/*Header sizes */
+  font-size: 1.5em; 
+}
+
+h2{/*Header sizes */
+  font-size: 1.2em;
+
+}
+
+h3{/*Header sizes */
+  font-size: 1.1em;
+}
+
+p{/*Paragraph sizes */
+  font-size: 1em;
+}
+.about{
+  width:60%;
+}
+/* Table Editing */
+
+table td,
+table th { /*Rules for table headers & table data*/
+  white-space: nowrap; /*Keeps text on the one line*/
   
+}
 
 
-<main>
-  <br>
-  <h1>Charlie McMullan's Job Experience:</h1>
-  <br>
-  <p><h2>Dealz</h2><br>
-    Sales Assistant<br>
-    September 2020 – present</p><br>
-    <ul>
+.Ftable{
+  margin-left:5%;
+  margin-right:5%;
+  text-decoration: none; 
+  color: white; /* Change color to red */
+  border: 0px;
+  width: 80%;
+  max-width: 80%;
+  font-size: 1.1em;
+  table-layout: fixed;
+
+}
+
+.Ftable th{
+  text-decoration: none; /* Remove underline */
+}
+
+
+.results{
+  border: 0px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1em;
+  table-layout: fixed;
+  
+}
+
+
+.Git{
+   /* Remove underline */
+  height: 1.3em;
+  width:auto;
+}
+
+.Link{
+  height: 1.3em;
+  width:auto;
+}
+
+#Tel{
+  padding-bottom: 5%;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change color to red */
+  font-weight: normal;
+}
+
+
+#Email{
+  padding-bottom: 5%;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Change color to red */
+  font-weight: normal;
+}
+
+
+.image-style{
+  width:80%;
+border: 1px solid black;
+}
+.image-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+/*Devices with 800px screens */
+@media screen and (max-width: 800px) {
+  main { /* indents text in main*/
+      margin-left:5%
+    }
+
+  
+    .results{ /*edits tables with results*/
+      border: 0px;
+      width: 100%;
+      max-width: 100%;
+      font-size: 0.8em;
+      table-layout: fixed; /*forces a stanardised layout for all in .results*/
+      
+    }
     
-    <li>Arranged shelves to display promotions, sales and deals in optimum placement to increase purchases.</li>
-    <li> Maintained excellent customer satisfaction by providing helpful, friendly, and attentive customer service.</li>
-    <li> Assisted with store openings and closing duties, completing tasks such as stock counts, visual merchandising, and cleaning.</li>
-    <li>Helped customers navigate required items on shop floor by proactively taking them to items location.</li>
-    <li> Maintained clean, tidy, and organised checkout areas.</li>
     
-    </ul>
+    .right-inline{
+      padding-left: 28%;/*padding between result and module*/
+    
+    }
 
-    <p><h2>LCM SIGNS & GRAPHICS</h2><br>
-      June - August 2019</p><br>
-      <ul>
-      <li> Answered phone calls, emails and queries made by customers.</li>
-      <li> Greeting customers at front entrance to assist them with enquiries.</li>
-      <li>Assisted with stock counts and ordering products needed.</li>
-      <li> Printed on smaller scale products such as mugs, t-shirts, frames.</li>
-      <li> Handling printing machines of a smaller scale such as TrueVis VG2-640 and VersaUV LEC2-640</li>
-      </ul>
-<br><br>
-</main>
-<footer class="SPage">
-  <table class="Ftable">
-    <th><a href="tel:+353831832073" id="Tel" style="text-decoration: none;">Phone: 0831832073</a></th>
-   <th class="Fright"><a href="mailto:Charlie.McMullan71@gmail.com" id="Email" style="text-decoration: none">Email: Charlie.McMullan71@gmail.com</a></th>
-    <tr>
-        <td>	<a href= "https://www.linkedin.com/in/charlie-mcmullan-947241228/" class="Link" >
-          <img src="images/Linkedin.png" class="Link"></a> </td>
-          <td class="Fright">	<a href= "https://github.com/CharlieMcMullan" class="Git" >
-            <img src="images/Git.png" class="Git"></a> </td>
-    </tr>
-  </table>
-    <P><br> Website developed by Charlie McMullan<br></P>
-</footer>
-</html>
+    .Ftable{/*Edits Footer Table*/
+      margin-left:5%;
+      margin-right:5%;
+      text-decoration: none; /* Removes underline */
+      color: white; /* Change color to white from standard hyperlink blue */
+      border: 0px;   /* removes table boarder */
+      width: 80%;
+      max-width: 80%;
+      font-size: 0.7em;
+      table-layout: fixed; 
+    
+    }
+
+    .table-striped{
+      font-size: 0.5em;
+      max-width: 80%;
+      width: 80%;
+      
+    }
+
+    /*Footer imgs*/
+    .Git{
+      /* Remove underline */
+     height: 1em;
+     
+   }
+   
+   .Link{
+     height: 1em;
+     
+   }
+
+.about{
+width: 80%;
+max-width: 80%;
+}
+
+.SPage-Mobile{
+  background-color: black;
+  padding-top:2.5%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+  }
+
+
+  @media screen and (min-width: 1000px) {
+
+    .SPage-Desk{
+      background-color: black;
+      padding-top:2.5%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
