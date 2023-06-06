@@ -22,8 +22,7 @@ main {/* Sets main page spacing from edges, creating the border rules*/
   /* Footer Editor*/
 footer{ /* Footer colour & spacing*/
     background-color: black;
-    padding-top:1%;
-    padding-bottom:1%;
+    padding-top:2.5%;
   }
   footer p {  /* Footer paragraph rules*/
     color: white;
