@@ -1,5 +1,7 @@
 
 
+
+
 body{ /* Sets text rules such as font type and alignment */
   font-family: arial;
   text-align: left;
@@ -26,6 +28,7 @@ list-style-type: none;
     padding: 0 !important;
 }
 
+
 .aboutli{
 display: inline;
     margin-right: 10px !important; 
@@ -35,13 +38,22 @@ display: inline;
 footer{ /* Footer colour & spacing*/
     background-color: black;
     padding-top:2.5%;
+    position: absolute;
   }
-  footer p {  /* Footer paragraph rules*/
+footer p {  /* Footer paragraph rules*/
     color: white;
     margin-left:5%;
 
   }
 
+
+    /* Footer Editor*/
+  .SPage{ /* Footer colour & spacing*/
+  background-color: black;
+  padding-top:2.5%;
+  position: absolute;
+  bottom: 0;
+}
 /*font editing */
 h1{/*Header sizes */
   font-size: 1.5em; 
@@ -138,6 +150,7 @@ border: 1px solid black;
 }
 
 
+
 /*Devices with 800px screens */
 @media screen and (max-width: 800px) {
   main { /* indents text in main*/
@@ -197,11 +210,14 @@ width: 80%;
 max-width: 80%;
 }
 
-    
+.SPage-Mobile{
+  background-color: black;
+  padding-top:2.5%;
+  position: absolute;
+  bottom: 0;
+}
+
   }
 
-.filler{
-padding-bottom: 200px;
-}
 
-}
+
