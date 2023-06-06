@@ -182,7 +182,8 @@ border: 1px solid black;
    }
 
 .about{
-width: 75%;
+width: 80%;
+max-width: 80%;
 }
 
     
