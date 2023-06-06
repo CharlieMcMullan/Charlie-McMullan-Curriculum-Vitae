@@ -1,4 +1,4 @@
-html{
+html, body{
 background-color:black;
 }
 
@@ -206,7 +206,4 @@ max-width: 80%;
 padding-bottom: 200px;
 }
 
-  .aboutul{
-     display: block;
-     list-style: circle;
-  }
+}
