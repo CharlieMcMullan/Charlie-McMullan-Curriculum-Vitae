@@ -23,6 +23,16 @@ main {/* Sets main page spacing from edges, creating the border rules*/
     color: white !important;
   }
 
+.aboutul{
+list-style-type: none;
+    padding: 0;
+}
+
+.aboutli{
+display: inline;
+    margin-right: 10px; 
+}
+
   /* Footer Editor*/
 footer{ /* Footer colour & spacing*/
     background-color: black;
