@@ -46,14 +46,14 @@ footer p {  /* Footer paragraph rules*/
 
   }
 
-
     /* Footer Editor*/
-  .SPage{ /* Footer colour & spacing*/
-  background-color: black;
-  padding-top:2.5%;
-  position: absolute;
-  bottom: 0;
-}
+    .SPage{ /* Footer colour & spacing*/
+      background-color: black;
+      padding-top:2.5%;
+      position: absolute;
+      bottom: 0;
+    }
+
 /*font editing */
 h1{/*Header sizes */
   font-size: 1.5em; 
@@ -216,6 +216,7 @@ max-width: 80%;
   position: absolute;
   bottom: 0;
 }
+
 
   }
 
