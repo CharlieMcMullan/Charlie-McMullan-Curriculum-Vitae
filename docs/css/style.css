@@ -25,12 +25,12 @@ main {/* Sets main page spacing from edges, creating the border rules*/
 
 .aboutul{
 list-style-type: none;
-    padding: 0;
+    padding: 0 !important;
 }
 
 .aboutli{
 display: inline;
-    margin-right: 10px; 
+    margin-right: 10px !important; 
 }
 
   /* Footer Editor*/
