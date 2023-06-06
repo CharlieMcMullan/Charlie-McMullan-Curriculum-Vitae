@@ -205,3 +205,8 @@ max-width: 80%;
 .filler{
 padding-bottom: 200px;
 }
+
+  .aboutul{
+     display: block;
+     list-style: circle;
+  }
