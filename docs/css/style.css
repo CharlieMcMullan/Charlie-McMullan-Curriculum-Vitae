@@ -130,6 +130,8 @@ table th { /*Rules for table headers & table data*/
 @media screen and (max-width: 800px) {
   main { /* indents text in main*/
       margin-left:5%;
+height: auto;
+width: auto; 
     }
 
     .about{
