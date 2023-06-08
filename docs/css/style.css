@@ -78,7 +78,7 @@ table th { /*Rules for table headers & table data*/
 }
 
 .flow{
-  height:50%;
+  width:50%;
 }
 
 .Ftable{
@@ -215,9 +215,6 @@ max-width: 80%;
   bottom: 0;
 }
 
-.projectT{
-  font-size: 0.45em;
-}
 
   }
 
