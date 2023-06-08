@@ -47,12 +47,7 @@ footer p {  /* Footer paragraph rules*/
   }
 
     /* Footer Editor*/
-    .SPage{ /* Footer colour & spacing*/
-      background-color: black;
-      padding-top:2.5%;
-      position: absolute;
-      bottom: 0;
-    }
+
 
 /*font editing */
 h1{/*Header sizes */
@@ -227,13 +222,12 @@ max-width: 80%;
   }
 
 
-  @media screen and (min-width: 1000px) {
-    main { 
-      .SPage-Desk{
+  @media screen and (min-width: 1024px) {
+      .SPage{ /* Footer colour & spacing*/
         background-color: black;
         padding-top:2.5%;
         position: absolute;
         bottom: 0;
-      }
+      
     }
   }
