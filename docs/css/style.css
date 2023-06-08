@@ -82,6 +82,9 @@ table th { /*Rules for table headers & table data*/
   
 }
 
+.flow{
+  height:50%;
+}
 
 .Ftable{
   margin-left:5%;
@@ -217,16 +220,20 @@ max-width: 80%;
   bottom: 0;
 }
 
+.projectT{
+  font-size: 0.45em;
+}
 
   }
 
 
   @media screen and (min-width: 1000px) {
-
-    .SPage-Desk{
-      background-color: black;
-      padding-top:2.5%;
-      position: absolute;
-      bottom: 0;
+    main { 
+      .SPage-Desk{
+        background-color: black;
+        padding-top:2.5%;
+        position: absolute;
+        bottom: 0;
+      }
     }
   }
