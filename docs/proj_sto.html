@@ -1,0 +1,93 @@
+<html>
+
+<!DOCTYPE html>
+<html>
+<!--This connects bootstrap to the webpage-->
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!--This customises the boostrap design adding spacing for main from left side&& setting navbar hight + colour-->
+			<link rel="stylesheet" href="css/style.css">
+      <link rel="icon" type="image/x-icon" href="images/Logo.ico">
+	<style>
+.navbar-nav > li > a {
+  color: white;
+}
+
+
+</style>
+<head>
+    <title>Charlie McMullan</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+	 <!--This the navigation bar and it's options-->
+     
+     <ul class="nav nav-tabs nav-fill custom-navbar" >
+        <li class="nav-item" >
+          <a class="nav-link active " href="index.html"style="color: gray;" ><strong>Home</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="certs.html"style="color: gray;"><strong>Certs</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="experience.html"style="color: gray;"><strong>Experience</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="projects.html"style="color: gray;"><strong>Projects</strong></a>
+        </li>
+      </ul>
+  
+
+
+<main>
+ <p></p>
+<h1>Project</h1>
+<h2>Stock management</h2>
+<img src="proj/stock.png" class="flow"></a> 
+<br>
+<h3>About</h3>
+<p>
+  This program is written entirely in C++. I wrote this program to better my understanding of reading and writing from a file using C++.
+   For an extra challenge to myself, I decided to also write a function that would work as a passcode. To open the main program, you must 
+   first enter the correct password. This was included as an anti-tampering measure for stock management. Once the correct password is
+    entered there are 5 options provided to the user. They choose the option they want by entering the corresponding number for the option.
+     Option 0 is to display all the stock. This is performing a read operation on the file containing the data. Option 1 is to search for
+      an item, this is also a read operation but is focused on a specific set of data. There are two search options, to search by item name 
+      or ID number. In both cases, it searches for a specific item of data in the file and once found reads all the data on that row. Options
+       2 and 3 are very similar both are for performing write operations and writing over specific data items within a row. Option 2 is to
+        change the price and Option 3 is to change the quantity. Option 4 exits the program
+</p>
+<br>
+<h3> Example</h3>
+<p>Passcode Protection</p>
+<img src="proj/pass.jpg" class="flow"></a>
+<p>Main Menu</p>
+<img src="proj/smenu.jpg" class="flow"></a>
+<p>Search item</p>
+<img src="proj/search.jpg" class="flow"></a>
+<p>Change price</p>
+<img src="proj/price.jpg" class="flow"></a>
+
+<br>
+<br><br><a href= "https://github.com/CharlieMcMullan/Stock-Manager/blob/efea3d56fde67df9720ef527823787d52fe4329a/Stock%20Manager/Stock%20Manager.cpp" class="Git" >
+  <img src="proj/gitbtn.png" class="Git"></a>
+
+</main>
+<footer>
+  <table class="Ftable">
+    <th><a href="tel:+353831832073" id="Tel" style="text-decoration: none;">Phone: 0831832073</a></th>
+   <th class="Fright"><a href="mailto:Charlie.McMullan71@gmail.com" id="Email" style="text-decoration: none">Email: Charlie.McMullan71@gmail.com</a></th>
+    <tr>
+        <td>	<a href= "https://www.linkedin.com/in/charlie-mcmullan-947241228/" class="Link" >
+          <img src="images/Linkedin.png" class="Link"></a> </td>
+          <td class="Fright">	<a href= "https://github.com/CharlieMcMullan" class="Git" >
+            <img src="images/Git.png" class="Git"></a> </td>
+    </tr>
+  </table>
+    <P><br> Website developed by Charlie McMullan<br></P>
+</footer>
+</body>
+</html>
