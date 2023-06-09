@@ -147,6 +147,10 @@ border: 1px solid black;
 
 }
 
+.Table-Page{
+  width:95%;
+  padding-right:2.5%;
+}
 
 
 /*Devices with 800px screens */
@@ -219,7 +223,7 @@ max-width: 80%;
   }
 
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 801px) {
       .SPage{ /* Footer colour & spacing*/
         background-color: black;
         padding-top:2.5%;
