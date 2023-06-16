@@ -28,6 +28,10 @@ list-style-type: none;
     padding: 0 !important;
 }
 
+strong{
+ font-size: 1em;
+ font-family: 'Trebuchet MS', sans-serif;
+}
 
 .aboutli{
 display: inline;
@@ -219,7 +223,6 @@ max-width: 80%;
   bottom: 0;
 }
 
-
   }
 
 
@@ -231,4 +234,12 @@ max-width: 80%;
         bottom: 0;
       
     }
+
   }
+
+  @media screen and (min-width: 400px) {
+strong{
+  font-size: 1.3em;
+}
+
+}
