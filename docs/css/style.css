@@ -33,6 +33,12 @@ strong{
  font-family: 'Trebuchet MS', sans-serif;
 }
 
+/* This is for the read more hyperlinks*/
+.Read{
+  text-decoration: none; 
+  font-weight: bolder;
+}
+
 .aboutli{
 display: inline;
     margin-right: 10px !important; 
@@ -152,8 +158,7 @@ border: 1px solid black;
 }
 
 .Table-Page{
-  width:95%;
-  padding-right:2.5%;
+  width:90%;
 }
 
 
@@ -194,8 +199,8 @@ border: 1px solid black;
 
     .table-striped{
       font-size: 0.5em;
-      max-width: 80%;
-      width: 80%;
+      max-width: 70%;
+      width: 70%;
       
     }
 
@@ -223,6 +228,7 @@ max-width: 80%;
   bottom: 0;
 }
 
+
   }
 
 
@@ -241,5 +247,6 @@ max-width: 80%;
 strong{
   font-size: 1.3em;
 }
+
 
 }
