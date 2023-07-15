@@ -222,6 +222,7 @@ border: 1px solid black;
 }
 
 #heroText2{
+	height: 40%;
 	font-weight:bold;
 	color:white;
 	position: absolute;
