@@ -159,41 +159,43 @@ border: 1px solid black;
 
 /*Hero image*/
 
-#hero1{
-	background-image: url('../sandbox/hero.jpg');
-  height: 30%;
-  @media screen and (max-width: 800px) {
-    height: 10%;
-  }
-  max-width: auto;
-	background-repeat:no;
-	background-size:cover;
-	background-position:center;
-	position: relative;
-		
-		
+/* Hero image 1 */
+#hero1 {
+  background-image: url('../sandbox/hero.jpg');
+  height: 40%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-#hero2{
-	background-image: url('../sandbox/landscape.jpg');
-  height: 50%;
-  @media screen and (max-width: 800px) {
-    height: 10%;
+/* Hero image 2 */
+#hero2 {
+  background-image: url('../sandbox/landscape.jpg');
+  height: 30%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* smaller screens */
+@media screen and (max-width: 800px) {
+  #hero1,
+  #hero2 {
+    height: 30%;
   }
-  max-width: auto;
-	background-repeat:no;
-	background-size:cover;
-	background-position:center;
-	position: relative;
-		
-		
 }
 
 #heroText2 button{
   background-color: #86b300;
-  size: 2em;
+  size: 5px;
   float:center;
   margin-left:10%;
+
+  @media screen and (min-width: 950px) {
+    size: 2em;
+  }
   
 }
 
@@ -222,7 +224,7 @@ border: 1px solid black;
 }
 
 #heroText2{
-	height: 40%;
+	height: 80%;
 	font-weight:bold;
 	color:white;
 	position: absolute;
