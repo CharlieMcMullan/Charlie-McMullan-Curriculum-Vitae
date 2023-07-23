@@ -143,7 +143,9 @@ form{
   border-radius: 1em;
   border-color: black;
   padding: 3em;
-  width: 40%;
+    @media screen and (min-width: 950px) {
+    width: 40%;
+  }
 }
 
 legend{
