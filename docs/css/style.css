@@ -138,6 +138,20 @@ table th { /*Rules for table headers & table data*/
 }
 
 
+form{
+  border-style: solid;
+  border-radius: 1em;
+  border-color: black;
+  padding: 3em;
+  width: 40%;
+}
+
+legend{
+  background-color: FFCC66;
+  text-align: center;
+ 
+}
+
 #Email{
   padding-bottom: 5%;
   text-decoration: none; /* Remove underline */
