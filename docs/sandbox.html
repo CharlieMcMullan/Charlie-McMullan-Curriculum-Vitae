@@ -49,7 +49,7 @@
 
 <h2>Use of different Media formats</h2>
  <h3>An example of an mp4 file</h3>
- <video controlsList="nodownload" width="60%" controls>
+ <video width="60%" controls controlsList="nodownload">
   <source src="sandbox/water.mp4" type="video/mp4">
 Video file not supported by browser
 </video>
@@ -59,11 +59,10 @@ Video file not supported by browser
 
 <h3>An example of an mp3 file</h3>
 <p>This audio file was provided by Dean Justice, a member of the Limerick band 'Theatre'.</p>
-<audio controls controlsList=”nodownload noplaybackrate”>
-  <source src="sandbox/audio.mp3" type="audio/mpeg">
+<audio controls controlsList="nodownload">
+  <source src="sandbox/audio.mp3" type="audio/mp3">
   Audio file not supported by browser
 </audio>
-
 <hr>
 <h2>Use of Hero images</h2>
 <p>A hero image is usually a banner or striking image that is viewed upon visiting a webpage. 
@@ -92,6 +91,70 @@ Video file not supported by browser
       <button>Sign up</button>
     </div>
    </div>
+
+<hr>
+<h2>Forms</h2>
+<p>Forms are used to gather information through user input. They can be used when registering an account or placing orders and more.<br>
+Below are some example of standard uses of forms. The form below aren't gathering the input information, they're just for show.<br>
+if you press the submit buttom on the forms it will only refresh the page.</p><br>
+
+
+<form action="" method="post" width="60%">
+  <legend>Create Account</legend>
+    <fieldset>
+    <p><label for="Firstname"> First Name: </label><br> <input type="text" name="Firstname" id ="form-account" size="10"></p>
+    <p></p><label for="Sirname"> Last Name: </label><br> <input type="text" name="Sirname" id ="form-account" size="10"></p>
+    <p><label for="Email"> Email: </label><br> <input type="email" name="Email" id ="form-account" size="20"></p>
+    <p><label for="Password"> New Password: </label><br> <input type="password" name="Password" id ="form-account" size="20"></p>
+    <p><label for="Password"> Confirm Password: </label><br> <input type="password" name="Password" id ="form-account" size="20"></p>
+    <button>Register</button>
+  </fieldset>
+</form>
+
+<form action="" method="post" width="60%">
+  <legend>Delievery Information</legend>
+    <fieldset>
+    <p><label for="Address1"> Address line 1: </label><br> <input type="text" name="Address1" id ="form-address" size="20"></p>
+    <p><label for="Address2"> Address line 2: </label><br> <input type="text" name="Address2" id ="form-address" size="20"></p>
+    <p><label for="Address3"> Address line 3: </label><br> <input type="text" name="Address3" id ="form-address" size="20"></p>
+    <p><label for="city"> City/Town: </label><br> <input type="text" name="city" id ="form-address" size="12"></p>
+    <label>province:</label>
+      <p> <label><input type="radio" name="province" value="Leinster"> Leinster </label></p>
+      <p> <label><input type="radio" name="province" value="Ulster"> Ulster </label></p>
+      <p> <label><input type="radio" name="province" value="Munster"> Munster </label></p>
+      <p> <label><input type="radio" name="province" value="Connaught"> Connaught </label></p>
+    <p><label for="Eircode"> Eircode </label><br> <input type="text" name="Eircode" id ="form-address" size="12"></p>
+    <button>Next</button>
+  </fieldset>
+</form>
+
+<form action="" method="post" width="60%">
+  <legend>Online Booking</legend>
+  <p><label for="Fullname"> Full Name: </label><br> <input type="text" name="Fullname" id ="form-booking" size="20"></p>
+  <p><label for="number"> Mobile Number: </label><br> <input type="tel" name="number" id ="form-booking" size="9"></p>
+  <label>Number of Guests:</label>
+  <p>
+    <select name="Number">
+    <option selected="selected" disabled="true">Please Select</option>
+    <option>5-10</option>
+    <option>11-20</option>
+    <option>21-30</option>
+    <option>31-40</option>
+    <option>41-50</option>
+     <option>50+</option>
+          </select></p>
+  </p>
+  <label>Select a date:</label><br>
+  <input type="date" name="date" id ="form-booking"><br>
+  <fieldset>
+    <label>Special Requests</label><br>
+    <textarea  name="requests" id ="form-booking" rows="4" cols="60"> </textarea>
+  
+  </fieldset>
+
+  <br><p><button>Place Booking</button> </p>
+
+</form>
 
 </main>
 <footer>
