@@ -1,51 +1,56 @@
 <html>
 
 <!DOCTYPE html>
-<html>
 <!--This connects bootstrap to the webpage-->
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<!--This customises the boostrap design adding spacing for main from left side&& setting navbar hight + colour-->
-			<link rel="stylesheet" href="css/style.css">
-      <link rel="icon" type="image/x-icon" href="images/Logo.ico">
-	<style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--This customises the boostrap design adding spacing for main from left side&& setting navbar hight + colour-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="images/Logo.ico">
+<style>
 .navbar-nav > li > a {
-  color: white;
+color: white;
 }
 
 
 </style>
 <head>
-    <title>Charlie McMullan</title>
-        <meta charset="UTF-8"><!--For characters-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--For mobile deivces-->
-    </head> 
-    <body>
-	 <!--This the navigation bar and it's options-->
-     
-     <ul class="nav nav-tabs nav-fill custom-navbar" >
-        <li class="nav-item" >
-          <a class="nav-link active " href="index.html"style="color: gray;" ><strong>Home</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="certs.html"style="color: gray;"><strong>Certs</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="experience.html"style="color: gray;"><strong>Experience</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="projects.html"style="color: gray;"><strong>Projects</strong></a>
-        </li>
-      </ul>
-  
+<title>Charlie McMullan</title>
 
+  <meta charset="UTF-8">
+   <!--Importing Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!--Importing device scaling-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!--This the navigation bar and it's options-->
+
+<ul class="nav nav-tabs nav-fill custom-navbar" >
+  <li class="nav-item" >
+    <a class="nav-link active " href="index.html"style="color: gray;" ><strong>Home</strong></a> <!--Home Link-->
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="certs.html"style="color: gray;"><strong>Certs</strong></a> <!--Certs Link-->
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="experience.html"style="color: gray;"><strong>Experience</strong></a><!--Experience Link-->
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="projects.html"style="color: gray;"><strong>Projects</strong></a><!--Projects Link-->
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="sandbox.html"style="color: gray;"><strong>Sandbox</strong></a><!--Sandbox Link-->
+  </li>
+</ul>
 
 <main>
   <div class="about"> <!--About -->
     <h1>About Charlie McMullan</h1>
+    <!--Skills-->
     <p>Knowledge in:</p>
-<ul class="aboutul">
+<ul class="aboutul"> <!-- Unordered lists-->
 <li class="aboutli">JAVA </li>
 <li class="aboutli">C++ </li>
 <li class="aboutli">Python </li>
@@ -58,13 +63,14 @@
 </ul><br><br>
   <p>Experience with: </p>
 
-<ul class="aboutul">
+<ul class="aboutul"> <!-- Unordered lists-->
 <li class="aboutli">Linux </li>
 <li class="aboutli">Terminals</li>
 <li class="aboutli">AWS Cloud </li>
 <li class="aboutli">Networking devices/Cisco</li>
 <li class="aboutli">VMWare </li>
 </ul><br><br>
+<!--Characteristics-->
 <dl> 
       <dt> Leadership and teamwork: </dt> 
       <dd>Managed the position of department representative for the student IT department, at the TUS Moylish campus from 2021 – 2022. Representing over 400 IT students<br><br> </dd>
@@ -77,29 +83,30 @@
 
 <dt> Determined to learn:  </dt> 
 <dd> Although I am specialising in networking I try to be as well versed in all IT aspects and recently purchased a course on python to further my understanding of this programming language.<br><br> </dd>
-
-
 </dl>
     </p>
     </section>
   </div>
 
+  <!--Education-->
     <section>
   <h1>Education</h1>
 <h2>The Technological University of the Shannon,</h2>
 <p>Currently studying: Computer Networks & Systems Management<br>
   Moylish, Limerick, V94 EC5T<br>
   2021 – present</p>
- <h3>Second Year Results</h3><!--TUS Second year results -->
+  <!--TUS Second year results -->
+ <h3>Second Year Results</h3>
 
-<table class="results"><!--.results table -->
+<table class="results"><!--Results Table -->
 
-  <tr><!-- table  row-->
-    <ul> <!-- Unordered list, to create bulletpoints-->
-      <td> <li>Web Development Fundamentals</td></li> <!-- table data, and the listed item which creates the bulletpoint-->
+  <tr><!--Table  Row-->
+    <ul> <!--Unordered lists-->
+       <!--Subject Name-->
+      <td> <li>Web Development Fundamentals</td></li>
        
-    </ul>
-    <td class="right-inline"> 70%</td><!-- .right-inline is for mobile devices to space modules from results-->
+    </ul><!--Subject Result-->
+    <td class="right-inline"> 70%</td>
   </tr>
 
   <tr>
@@ -182,19 +189,20 @@
    
   </table>
 
-  <h3>First Year Results</h3> <!--TUS First year results -->
-<table class="results">
+  <!--TUS First year results -->
+  <h3>First Year Results</h3> 
+<table class="results"> <!--Table -->
 
   <tr>
-    <ul>
-      <td> <li>Communications & Applications</td></li>
+    <ul> <!--Unordered List -->
+      <td> <li>Communications & Applications</td></li><!--Subject Name -->
        
     </ul>
     <td class="right-inline"> 84%</td>
   </tr>
 
   <tr>
-    <ul>
+    <ul><!--Subject Result -->
       <td> <li>Mathematical Methods</li></td>
     </ul>
     <td class="right-inline"> 71%</td>
@@ -273,19 +281,19 @@
   </tr>
    
   </table>
-
-  <h2>Limerick College of Further Education</h2> <!--LCFE results -->
+<!--LCFE Results -->
+  <h2>Limerick College of Further Education</h2> 
 <p>Computer Systems and Networks,<br>
   Mulgrave St, Limerick, V94 P232<br>
   2020 – 2021<br> </p>
 <h3>QQI Level 5 Results</h3>
-<table class="results">
+<table class="results"><!--Table Results -->
 
   <tr>
-    <ul>
+    <ul><!--Subject Name -->
       <td> <li>Computer Systems Hardware</td></li>
        
-    </ul>
+    </ul><!--Subject Results -->
     <td class="right-inline"> Distinction</td>
   </tr>
 
@@ -355,7 +363,8 @@
 </main>
 <br><br>
 <footer>
-  <table class="Ftable"> <!--Footer Table -->
+    <!--Footer Table With Additional Info-->
+  <table class="Ftable">
     <th><a href="tel:+353831832073" id="Tel" style="text-decoration: none;">Phone: 0831832073</a></th>  <!--Hyperlink to my phone number -->
    <th class="Fright"><a href="mailto:Charlie.McMullan71@gmail.com" id="Email" style="text-decoration: none">Email: Charlie.McMullan71@gmail.com</a></th><!--Hyperlink to my Email -->
     <tr>
