@@ -18,8 +18,11 @@
 </style>
 <head>
     <title>Charlie McMullan</title>
+
         <meta charset="UTF-8">
+         <!--Importing Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!--Importing device scaling-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -27,36 +30,119 @@
      
      <ul class="nav nav-tabs nav-fill custom-navbar" >
         <li class="nav-item" >
-          <a class="nav-link active " href="index.html"style="color: gray;" ><strong>Home</strong></a>
+          <a class="nav-link active " href="index.html"style="color: gray;" ><strong>Home</strong></a> <!--Home Link-->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="certs.html"style="color: gray;"><strong>Certs</strong></a>
+          <a class="nav-link" href="certs.html"style="color: gray;"><strong>Certs</strong></a> <!--Certs Link-->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="experience.html"style="color: gray;"><strong>Experience</strong></a>
+          <a class="nav-link" href="experience.html"style="color: gray;"><strong>Experience</strong></a><!--Experience Link-->
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="projects.html"style="color: gray;"><strong>Projects</strong></a>
+          <a class="nav-link disabled" href="projects.html"style="color: gray;"><strong>Projects</strong></a><!--Projects Link-->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="sandbox.html"style="color: gray;"><strong>Sandbox</strong></a><!--Sandbox Link-->
         </li>
       </ul>
   
 
 
 <main>
+  	 <!--About-->
   <h1>Sandbox</h1>
- <p>The purpose of this web page is solely website development. This section is a sandbox for me to experiment with different concepts, to better my understanding and skills in website development.</p>
+  <p>This page is a sandbox, in IT a sandbox refers to a controlled isolated environment which can be used for testing and developing.
+   I am creating this sandbox page to showcase additional features that were not initially included, but I am incorporating them now
+    to demonstrate my coding abilities.</p>
 <br>
+ <!--Forms-->
+<h2>Forms</h2>
+<p>Forms are used to gather information through user input. They can be used when registering an account or placing orders and more.<br>
+Below are some example of standard uses of forms. The form below aren't gathering the input information, they're just for show.<br>
+if you press the submit buttom on the forms it will only refresh the page.</p><br>
 
+ <!--Form 1-->
+<form action="" method="post"> <!--Where form details are sent-->
+  <legend>Create Account</legend>
+    <fieldset>
+       <!--Basic Text Input-->
+    <p><label for="Firstname"> First Name: </label><br> <input type="text" name="Firstname" id ="form-account" size="10"></p>
+    <p></p><label for="Sirname"> Last Name: </label><br> <input type="text" name="Sirname" id ="form-account" size="10"></p>
+    <p><label for="Email"> Email: </label><br> <input type="email" name="Email" id ="form-account" size="20"></p>
+    <p><label for="Password"> New Password: </label><br> <input type="password" name="Password" id ="form-account" size="20"></p>
+    <p><label for="Password"> Confirm Password: </label><br> <input type="password" name="Password" id ="form-account" size="20"></p>
+    <button>Register</button>
+  </fieldset>
+</form>
+
+ <!--Form 2-->
+<form action="" method="post">
+  <legend>Delievery Information</legend>
+    <fieldset>
+       <!--Basic Text Input-->
+    <p><label for="Address1"> Address line 1: </label><br> <input type="text" name="Address1" id ="form-address" size="20"></p>
+    <p><label for="Address2"> Address line 2: </label><br> <input type="text" name="Address2" id ="form-address" size="20"></p>
+    <p><label for="Address3"> Address line 3: </label><br> <input type="text" name="Address3" id ="form-address" size="20"></p>
+    <p><label for="city"> City/Town: </label><br> <input type="text" name="city" id ="form-address" size="12"></p>
+    <label>province:</label>
+     <!--Radio buttons (mutli-option)-->
+      <p> <label><input type="radio" name="province" value="Leinster"> Leinster </label></p>
+      <p> <label><input type="radio" name="province" value="Ulster"> Ulster </label></p>
+      <p> <label><input type="radio" name="province" value="Munster"> Munster </label></p>
+      <p> <label><input type="radio" name="province" value="Connaught"> Connaught </label></p>
+
+    <p><label for="Eircode"> Eircode </label><br> <input type="text" name="Eircode" id ="form-address" size="12"></p>
+    <button>Next</button>
+  </fieldset>
+</form>
+
+ <!--Form 3-->
+<form action="" method="post">
+  <legend>Online Booking</legend>
+   <!--Basic Text Input-->
+  <p><label for="Fullname"> Full Name: </label><br> <input type="text" name="Fullname" id ="form-booking" size="20"></p>
+  <p><label for="number"> Mobile Number: </label><br> <input type="tel" name="number" id ="form-booking" size="9"></p>
+  <label>Number of Guests:</label>
+  <p>
+     <!--Dropdown Box Multi-Option -->
+    <select name="Number">
+    <option selected="selected" disabled="true">Please Select</option>
+    <option>5-10</option>
+    <option>11-20</option>
+    <option>21-30</option>
+    <option>31-40</option>
+    <option>41-50</option>
+     <option>50+</option>
+          </select></p>
+  </p>
+   <!--Date-->
+  <label>Select a date:</label><br>
+  <input type="date" name="date" id ="form-booking"><br>
+  <fieldset>
+   <!--Large Text Box-->
+    <label>Special Requests</label><br>
+    <textarea  name="requests" id ="form-booking" rows="4" cols="30"> </textarea>
+  </fieldset>
+  <br><p><button>Place Booking</button> </p>
+</form>
+<hr>
+
+ <!--Media-->
 <h2>Use of different Media formats</h2>
+<p>Media refers to multimedia content. Images, videos and audio are forms of multimedia content. This website already
+  incorporates images, so below is video  and audio files incorporated into the webpage.</p>
+   <!--Video-->
  <h3>An example of an mp4 file</h3>
  <video width="60%" controls controlsList="nodownload">
   <source src="sandbox/water.mp4" type="video/mp4">
 Video file not supported by browser
 </video>
 
+ <!--Youtube-->
 <h3>An example of a linked Youtube video</h3>
 <iframe width="60%" height="60%"src="https://www.youtube.com/embed/fVY0jmRjfVw"></iframe>
 
+ <!--Audio-->
 <h3>An example of an mp3 file</h3>
 <p>This audio file was provided by Dean Justice, a member of the Limerick band 'Theatre'.</p>
 <audio controls controlsList="nodownload">
@@ -64,23 +150,26 @@ Video file not supported by browser
   Audio file not supported by browser
 </audio>
 <hr>
+
+ <!--Hero-->
 <h2>Use of Hero images</h2>
 <p>A hero image is usually a banner or striking image that is viewed upon visiting a webpage. 
   I have an example of a hero image below. This is an image with accompanying text.</p>
 <br>
 
+ <!--Hero Img 1-->
 <h3>A hero image with text</h3>
 <p>The text is seperate to the image file. The text that appears on the image is projected on it using html & css</p>
   <div id="hero1">
- 
     <div id="heroText">
     <ul>
     <li><p>Computer Networks & Systems Management - BSc(Hons) Student</p></li>
     <li><p>Cisco, Networking, Programming, Website Development and More</p></li>
     </div>
    </div>
-<br> 
-
+<br>
+ 
+<!--Hero Img 2-->
    <h3>An interactive hero image with text and buttons</h3>
 <p>The text and buttons are projected onto the image file</p>
   <div id="hero2">
@@ -92,69 +181,6 @@ Video file not supported by browser
     </div>
    </div>
 
-<hr>
-<h2>Forms</h2>
-<p>Forms are used to gather information through user input. They can be used when registering an account or placing orders and more.<br>
-Below are some example of standard uses of forms. The form below aren't gathering the input information, they're just for show.<br>
-if you press the submit buttom on the forms it will only refresh the page.</p><br>
-
-
-<form action="" method="post" width="60%">
-  <legend>Create Account</legend>
-    <fieldset>
-    <p><label for="Firstname"> First Name: </label><br> <input type="text" name="Firstname" id ="form-account" size="10"></p>
-    <p></p><label for="Sirname"> Last Name: </label><br> <input type="text" name="Sirname" id ="form-account" size="10"></p>
-    <p><label for="Email"> Email: </label><br> <input type="email" name="Email" id ="form-account" size="20"></p>
-    <p><label for="Password"> New Password: </label><br> <input type="password" name="Password" id ="form-account" size="20"></p>
-    <p><label for="Password"> Confirm Password: </label><br> <input type="password" name="Password" id ="form-account" size="20"></p>
-    <button>Register</button>
-  </fieldset>
-</form>
-
-<form action="" method="post" width="60%">
-  <legend>Delievery Information</legend>
-    <fieldset>
-    <p><label for="Address1"> Address line 1: </label><br> <input type="text" name="Address1" id ="form-address" size="20"></p>
-    <p><label for="Address2"> Address line 2: </label><br> <input type="text" name="Address2" id ="form-address" size="20"></p>
-    <p><label for="Address3"> Address line 3: </label><br> <input type="text" name="Address3" id ="form-address" size="20"></p>
-    <p><label for="city"> City/Town: </label><br> <input type="text" name="city" id ="form-address" size="12"></p>
-    <label>province:</label>
-      <p> <label><input type="radio" name="province" value="Leinster"> Leinster </label></p>
-      <p> <label><input type="radio" name="province" value="Ulster"> Ulster </label></p>
-      <p> <label><input type="radio" name="province" value="Munster"> Munster </label></p>
-      <p> <label><input type="radio" name="province" value="Connaught"> Connaught </label></p>
-    <p><label for="Eircode"> Eircode </label><br> <input type="text" name="Eircode" id ="form-address" size="12"></p>
-    <button>Next</button>
-  </fieldset>
-</form>
-
-<form action="" method="post" width="60%">
-  <legend>Online Booking</legend>
-  <p><label for="Fullname"> Full Name: </label><br> <input type="text" name="Fullname" id ="form-booking" size="20"></p>
-  <p><label for="number"> Mobile Number: </label><br> <input type="tel" name="number" id ="form-booking" size="9"></p>
-  <label>Number of Guests:</label>
-  <p>
-    <select name="Number">
-    <option selected="selected" disabled="true">Please Select</option>
-    <option>5-10</option>
-    <option>11-20</option>
-    <option>21-30</option>
-    <option>31-40</option>
-    <option>41-50</option>
-     <option>50+</option>
-          </select></p>
-  </p>
-  <label>Select a date:</label><br>
-  <input type="date" name="date" id ="form-booking"><br>
-  <fieldset>
-    <label>Special Requests</label><br>
-    <textarea  name="requests" id ="form-booking" rows="4" cols="30"> </textarea>
-  
-  </fieldset>
-
-  <br><p><button>Place Booking</button> </p>
-
-</form>
 
 </main>
 <footer>
